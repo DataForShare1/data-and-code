@@ -1,7 +1,7 @@
 rm(list=ls())
 library(haven)
 library(DDL)
-DDL <- read_dta("Data_For_DDL.dta")
+DDL <- read_dta("DataForDDL.dta")
 
 # test for EP_EIDQ
 A <- as.matrix(DDL[, 3:100])
