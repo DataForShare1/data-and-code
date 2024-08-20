@@ -90,7 +90,7 @@ tab ind3,gen(indu)
 tab pro,gen(prov)
 drop year pro ind3 
 order EP_HeXun EP_EIDQ LnAIPatent
-save Data_For_DDL
+save DataForDDL
 */
 
 // TWFE_DID
